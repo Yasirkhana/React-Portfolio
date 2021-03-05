@@ -1,9 +1,9 @@
 import React from "react";
-
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import './App.css';
 import web from "../src/images/img1.svg";
+import { NavLink } from "react-router-dom";
 
 
 const Home = () =>{
@@ -14,7 +14,7 @@ const Home = () =>{
                     <div className="row">
                         <div className="col-10 mx-auto">
                             <div className="row">
-                            <div className="col-md-6 pt-5 pt-lg-5 order-2 order-lg-1">
+                            <div className="col-md-6 pt-5 pt-lg-5 order-2 order-lg-1 d-flex justify-content-center flex-column">
                                 <h1> 
                                     Grow Your Business with <strong className="brand-name"> YasirKhana. </strong>
                                </h1>
@@ -22,7 +22,7 @@ const Home = () =>{
                                     We are the team of talented Developer.
                                 </h2>
                                 <div className="mt-3 ">
-                                    <a href="" className="btn btn-outline-primary me-2">Get Started</a>
+                                    <NavLink to="/service" className="btn btn-outline-primary me-2">Get Started</NavLink>
                                 </div>
                             </div>
                             <div className="col-lg-6 order-1 pt-lg-5 order-lg-2 header-img">

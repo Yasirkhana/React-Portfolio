@@ -40,3 +40,9 @@
   font-weight: bold;
   border-bottom: 1px solid rgb(0, 101, 155);
 }
+.brand-name{
+  color:rgb(84, 142, 250)
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
