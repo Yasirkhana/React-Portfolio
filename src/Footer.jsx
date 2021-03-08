@@ -1,13 +1,13 @@
 import React from 'react';
+import './App.css';
 
 
 const Footer = () =>{
     return(
         <>
-            <footer className="bg-light text-center fixed-buttom py-3 mb-0">
+            <footer className="footer bg-white text-center">
                 <p>
                 &#169; 2021 YASIRKHANA. All Rights Reversed.  
-                
                 </p>
             </footer>
         </>
