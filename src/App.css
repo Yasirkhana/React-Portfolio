@@ -55,3 +55,19 @@
   height:30px;   /* Height of the footer */
   background:transparent;    
 }
+.Hero {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both ;
+    
+}
+
+@keyframes up-down {
+  from {
+    transform: translateY(5px);
+    
+  }
+
+  to {
+    transform: translateX(-5px);
+    
+  }
+}

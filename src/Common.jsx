@@ -24,7 +24,7 @@ const Common = (props) =>{
                                     <NavLink to="/service" className="btn btn-outline-primary me-2">{props.btn}</NavLink>
                                 </div>
                             </div>
-                            <div className="col-lg-6 order-1  order-lg-2 header-img">
+                            <div className="Hero col-lg-6 order-1  order-lg-2 header-img">
                                 <img src={props.img} className="img-fluid animated" alt="Common Image"/>
                             </div>
                         </div>
